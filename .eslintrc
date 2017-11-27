@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "extends": "react",
+  "plugins": [
+    "react",
+    "import"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "rules": {
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "react/prop-types": [0]
+  }
+}
